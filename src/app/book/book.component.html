@@ -1,0 +1,10 @@
+<div class="container">
+  <blockquote *ngFor="let book of books" class="blockquote">
+    <p>{{book.description}}</p>
+    <footer class="blockquote-footer">{{book.author}}</footer>
+  </blockquote>
+  <md-radio-group>
+    <md-radio-button value="1">Option 1</md-radio-button>
+    <md-radio-button value="2">Option 2</md-radio-button>
+  </md-radio-group>
+</div>
